@@ -1,7 +1,9 @@
-package br.com.zup.casadocodigo.crialivros;
+package br.com.zup.casadocodigo.consultaslivro;
+
+import br.com.zup.casadocodigo.crialivro.Livro;
 
 public class LivroResponse {
-	
+
 	private Long id;
 	private String titulo;
 

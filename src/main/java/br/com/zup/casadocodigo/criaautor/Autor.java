@@ -41,4 +41,14 @@ public class Autor {
 		return "Autor [id=" + id + ", nome=" + nome + ", email=" + email + ", descricao=" + descricao + ", instante="
 				+ instante + "]";
 	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	
 }

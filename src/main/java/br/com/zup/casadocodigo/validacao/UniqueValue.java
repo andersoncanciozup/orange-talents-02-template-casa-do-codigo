@@ -10,7 +10,7 @@ import javax.validation.Constraint;
 import javax.validation.Payload;
 
 @Documented
-@Constraint(validatedBy = {UniqueValueValidador.class})
+@Constraint(validatedBy = {UniqueValueValidator.class})
 @Target({ ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface UniqueValue {

@@ -1,4 +1,4 @@
-package br.com.zup.casadocodigo.crialivros;
+package br.com.zup.casadocodigo.crialivro;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -58,6 +58,53 @@ public class Livro {
 		this.autor = autor;
 	}
 
+	public String getResumo() {
+		return resumo;
+	}
+
+	public String getSumario() {
+		return sumario;
+	}
+
+	public void setSumario(String sumario) {
+		this.sumario = sumario;
+	}
+
+	public BigDecimal getPreco() {
+		return preco;
+	}
+
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
+	}
+
+	public Integer getNumeroPaginas() {
+		return numeroPaginas;
+	}
+
+	public void setNumeroPaginas(Integer numeroPaginas) {
+		this.numeroPaginas = numeroPaginas;
+	}
+
+	public String getIsbn() {
+		return isbn;
+	}
+
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+
+	public LocalDate getDataPublicacao() {
+		return dataPublicacao;
+	}
+
+	public void setDataPublicacao(LocalDate dataPublicacao) {
+		this.dataPublicacao = dataPublicacao;
+	}
+
+	public Autor getAutor() {
+		return autor;
+	}
 
 	public Long getId() {
 		return id;

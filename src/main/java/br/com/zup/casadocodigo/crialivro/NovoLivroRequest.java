@@ -1,4 +1,4 @@
-package br.com.zup.casadocodigo.crialivros;
+package br.com.zup.casadocodigo.crialivro;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -17,6 +17,7 @@ import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
 import br.com.zup.casadocodigo.criaautor.Autor;
 import br.com.zup.casadocodigo.criacategoria.Categoria;
+import br.com.zup.casadocodigo.validacao.ExistsId;
 
 public class NovoLivroRequest {
 
